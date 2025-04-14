@@ -10,8 +10,7 @@
     "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "prepare": "husky install",
-    "commitlint": "commitlint --edit"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
@@ -69,29 +68,5 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "header-pattern": [
-        2,
-        "always",
-        "^(\\w+)\\((WK-\\d+)\\):\\s.+"
-      ],
-      "header-max-length": [
-        2,
-        "always",
-        100
-      ]
-    },
-    "parserPreset": {
-      "parserOpts": {
-        "issuePrefixes": [
-          "WK-"
-        ]
-      }
-    }
   }
 }
