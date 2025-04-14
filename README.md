@@ -57,18 +57,6 @@ npm run prepare
 
 ## ВАЖЛИВО
 
-Ми використовуємо Conventional Commits з інтеграцією JIRA. Формат комітів такий:
-
-type(JIRA-ID): короткий опис
-
-Приклади:
-
-feat(WK-54): create list component
-
-fix(WK-12): fix validation issue
-
-refactor(WK-90): clean up form logic
-
 Коміт-повідомлення обов'язково повинно містити JIRA ID у дужках (наприклад, WK-54).
 
 Тип Для чого використовується

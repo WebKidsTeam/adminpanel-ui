@@ -1,9 +1,0 @@
-module.exports = {
-  extends: ['@commitlint/config-conventional'],
-  rules: {
-    'scope-case': [2, 'always', 'upper-case'], // JIRA-ID у верхньому регістрі (напр., WK-14)
-    'scope-empty': [2, 'never'], // Забороняє коміти без JIRA-ID
-    'scope-pattern': [2, 'always', '^[A-Z]+-[0-9]+$'], // Перевіряє формат (напр., WK-14)
-    'subject-case': [2, 'always', 'sentence-case'], // Опис у sentence-case
-  },
-};
