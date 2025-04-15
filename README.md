@@ -27,12 +27,6 @@ cd adminpanel-ui
 npm install
 ```
 
-Запустіть збірку:
-
-```bash
-npm run build
-```
-
 Запустіть проєкт у режимі розробки:
 
 ```bash
